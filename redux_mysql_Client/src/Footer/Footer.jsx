@@ -4,7 +4,7 @@ import React from "react";
 function template() {
   return (
     <div className="footer">
-      <h1>Footer</h1>
+      &copy; { new Date().getFullYear() } Rights Belongs To Me. 
     </div>
   );
 };
